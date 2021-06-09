@@ -17,13 +17,14 @@ p{
 }
 
 section{
-    padding: 7% 5%;
+    padding: 3% 5% 3% 5%;
     min-height: 500px;
 }
 
 .half-width{
     width: 40%;
     float: left;
+    overflow: hidden;
     margin-left: 4%;
     margin-right: 2%;
 }
@@ -66,4 +67,78 @@ section{
 .biography{
     background-image: url(image/biography-bg.png);
     background-size: cover;
+}
+
+.latest-work{
+    padding-top:100px;
+    background-image:url(image/latest-work-bg.png) ;
+    background-size: cover;
+}
+
+.work-title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.second-half-width{
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+}
+
+.second-half-width img{
+    width: 100%;
+}
+
+.test-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.testimonial{
+    background-image: url(image/footer-bg.png);
+
+}
+
+.client-name{
+    text-align: center;
+    color:white;
+}
+
+.company{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.testimonial-col{
+    padding:20px;
+    border: none;
+    border-radius: 10px;
+    background:linear-gradient(45deg, red, rgb(255, 8, 255));
+}
+
+.testimonial-col p{
+    color:white;
+}
+
+.footer{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    background:linear-gradient(45deg, red, rgb(255, 8, 255));
+    border-radius: 10px;
+    padding: 20px;
+    color:white;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+
+.copyright p{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(105, 105, 105);
+    text-decoration: none;
 }
